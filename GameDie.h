@@ -6,7 +6,8 @@ class GameDie
   public:
    GameDie();
    void roll();
+   int d = 228;
 };
 
-#include "GameDie.cpp"
+//#include "GameDie.cpp"
 #endif
