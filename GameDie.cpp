@@ -16,3 +16,8 @@ void GameDie::roll()
     std::cout<<r<<std::endl;
 }
 
+int main()
+{
+    GameDie gd = GameDie();
+    gd.roll();
+}
