@@ -19,6 +19,7 @@ GameDie::GameDie(short faces)
 
 GameDie::GameDie()
 {
+    n = 6;
     srand(time(NULL));
 }
 
