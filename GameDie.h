@@ -3,8 +3,10 @@
 
 class GameDie
 {
+  private:
+   short n;
   public:
-   GameDie();
+   GameDie(short faces);
    void roll();
 };
 
