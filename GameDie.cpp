@@ -10,6 +10,11 @@ GameDie::GameDie(short faces)
     srand(time(NULL));
 }
 
+GameDie::GameDie()
+{
+    srand(time(NULL));
+}
+
 //generate a random number between 1-6 (inclusive) and display it
 void GameDie::roll()
 {
