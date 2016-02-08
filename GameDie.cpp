@@ -6,7 +6,14 @@
 //class constructor that seeds the random number generator
 GameDie::GameDie(short faces)
 {
-    n = faces;
+    if(faces > 4 && faces < 20)
+    {
+	n = faces;
+    }
+    else
+    {
+	n = 6;
+    }
     srand(time(NULL));
 }
 
