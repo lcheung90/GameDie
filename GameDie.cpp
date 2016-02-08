@@ -4,8 +4,9 @@
 #include <time.h>
 
 //class constructor that seeds the random number generator
-GameDie::GameDie()
+GameDie::GameDie(short faces)
 {
+    n = faces;
     srand(time(NULL));
 }
 
